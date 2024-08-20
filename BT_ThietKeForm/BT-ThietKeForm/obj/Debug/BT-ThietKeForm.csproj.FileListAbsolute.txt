@@ -1,0 +1,14 @@
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\bin\Debug\BT-ThietKeForm.exe.config
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\bin\Debug\BT-ThietKeForm.exe
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\bin\Debug\BT-ThietKeForm.pdb
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT-ThietKeForm.csproj.AssemblyReference.cache
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.frmBai1.resources
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.frmChinh.resources
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.Properties.Resources.resources
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT-ThietKeForm.csproj.GenerateResource.cache
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT-ThietKeForm.csproj.CoreCompileInputs.cache
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT-ThietKeForm.exe
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT-ThietKeForm.pdb
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.frmBai2.resources
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.frmBai3.resources
+C:\Users\PC602\Downloads\BT_ThietKeForm\BT-ThietKeForm\obj\Debug\BT_ThietKeForm.frmBai4.resources
