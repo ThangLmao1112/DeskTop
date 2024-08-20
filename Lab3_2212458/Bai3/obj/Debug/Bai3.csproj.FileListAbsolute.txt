@@ -1,0 +1,10 @@
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\bin\Debug\Bai3.exe.config
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\bin\Debug\Bai3.exe
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\bin\Debug\Bai3.pdb
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.MainForm.resources
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.Properties.Resources.resources
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.csproj.GenerateResource.cache
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.exe
+C:\Users\PC602\Downloads\Lab3_2212458\Bai3\obj\Debug\Bai3.pdb
