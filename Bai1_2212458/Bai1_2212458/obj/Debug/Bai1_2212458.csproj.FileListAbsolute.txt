@@ -1,0 +1,10 @@
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\bin\Debug\Bai1_2212458.exe.config
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\bin\Debug\Bai1_2212458.exe
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\bin\Debug\Bai1_2212458.pdb
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.csproj.AssemblyReference.cache
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.Form1.resources
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.Properties.Resources.resources
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.csproj.GenerateResource.cache
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.csproj.CoreCompileInputs.cache
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.exe
+D:\HOCTAP\Desktop\Bai1_2212458\Bai1_2212458\obj\Debug\Bai1_2212458.pdb
