@@ -1,0 +1,10 @@
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\bin\Debug\Lab2_2212458.exe.config
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\bin\Debug\Lab2_2212458.exe
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\bin\Debug\Lab2_2212458.pdb
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.csproj.AssemblyReference.cache
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.Properties.Resources.resources
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.csproj.GenerateResource.cache
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.csproj.CoreCompileInputs.cache
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.exe
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.pdb
+C:\Users\PC602\Downloads\Lab2_2212458\Lab2_2212458\obj\Debug\Lab2_2212458.frmDemo.resources
