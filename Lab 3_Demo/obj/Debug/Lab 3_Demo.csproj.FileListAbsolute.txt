@@ -1,0 +1,10 @@
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\bin\Debug\Lab 3_Demo.exe.config
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\bin\Debug\Lab 3_Demo.exe
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\bin\Debug\Lab 3_Demo.pdb
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab 3_Demo.csproj.AssemblyReference.cache
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab_3_Demo.frmSinhVien.resources
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab_3_Demo.Properties.Resources.resources
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab 3_Demo.csproj.GenerateResource.cache
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab 3_Demo.csproj.CoreCompileInputs.cache
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab 3_Demo.exe
+C:\Users\PC602\Downloads\Lab3_Demo-main\Lab3_Demo-main\Lab 3_Demo\Lab 3_Demo\obj\Debug\Lab 3_Demo.pdb
