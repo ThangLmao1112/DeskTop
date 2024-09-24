@@ -1,0 +1,14 @@
+{
+  "sinhvien": [
+    {
+      "MSSV": "2212458",
+      "hoten": "Nguyen Hoang Quoc Thang",
+      "ngaysinh": "3/10/2004",
+      "diachi": "Phu dong thien vuong",
+      "lop": "CTK46A",
+      "hinh": "",
+      "gioitinh": true,
+      "mail": "Lmao@gmail.com"
+    }
+  ]
+}
