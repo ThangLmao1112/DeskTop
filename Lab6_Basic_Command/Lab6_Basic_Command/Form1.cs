@@ -22,7 +22,7 @@ namespace Lab6_Basic_Command
         private void btnLoad_Click(object sender, EventArgs e)
         {
             // Tạo chuỗi kết nối tới cơ sở dữ liệu RestaurantManagement
-            string connectionString = "server.; database RestaurantManagement; Integrated Security true; ";
+            string connectionString = "server=PC821; database = Restaurant Management; Integrated Security = true; ";
             // Tạo đối tượng kết nối
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             // Tạo đối tượng thực thi lệnh
@@ -57,12 +57,12 @@ namespace Lab6_Basic_Command
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            string connectionString = "server=.; database Restaurant Management; Integrated Security = true; ";
+            string connectionString = "server=PC821; database = Restaurant Management; Integrated Security = true; ";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             // Tạo đối tượng thực thi lệnh SqlCommand
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
             // Thiết lập lệnh truy vấn cho đối tượng Command
-            sqlCommand.CommandText = "INSERT INTO Category (Name, [Type])" + "VALUES (N'" + txtName.Text + "'," +txtType.Text + ")";
+            sqlCommand.CommandText = "INSERT INTO Category (Name, [Type])" + "VALUES (N'" + txtName.Text + "'," + txtType.Text + ")";
             // Mở kết nối tới cơ sở dữ liệu
             sqlConnection.Open();
             // Thực thi lệnh bằng phương thức ExcuteReader
@@ -102,12 +102,13 @@ namespace Lab6_Basic_Command
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            string connectionString = "server.; database Restaurant Management; Integrated Security = true; "; 
+            string connectionString = "server=PC821; database = Restaurant Management; Integrated Security = true; ";
             SqlConnection sqlConnection = new SqlConnection(connectionString);
             // Tạo đối tượng thực thi lệnh
             SqlCommand sqlCommand = sqlConnection.CreateCommand();
             // Thiết lập lệnh truy vấn cho đối tượng Command
-            sqlCommand.CommandText = "UPDATE Category SET Name = N'" + txtName.Text + "',[Type]=" + txtType.Text + "Where ID=" + txtID.Text;
+            sqlCommand.CommandText = "UPDATE Category SET Name = N'" + txtName.Text + "', [Type] = '" + txtType.Text + "' WHERE ID = " + txtID.Text;
+
             // Mở kết nối tới cơ sở dữ liệu
             sqlConnection.Open();
             // Thực thi lệnh bằng phương thức ExcuteReader
@@ -131,6 +132,61 @@ namespace Lab6_Basic_Command
             {
                 MessageBox.Show("Đã có lỗi xảy ra. Vui lòng thử lại");
             }
+        }
+
+
+
+        private void btnDelete_Click_1(object sender, EventArgs e)
+        {
+            // Tạo đối tượng kết nối
+            string connectionString = "server=PC821; database = Restaurant Management; Integrated Security = true; ";
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+            // Tạo đối tượng thực thi lệnh
+            SqlCommand sqlCommand = sqlConnection.CreateCommand();
+            // Thiết lập lệnh truy vẫn cho đối tượng Command
+            sqlCommand.CommandText = "DELETE FROM Category " + "WHERE ID =" + txtID.Text;
+            // Mở kết nối tới cơ sở dữ liệu
+            sqlConnection.Open();
+            // Thực thi lệnh bằng phương thức ExcuteReader
+            int numOfRowsEffected = sqlCommand.ExecuteNonQuery();
+            // Đóng kết nối
+            sqlConnection.Close();
+            if (numOfRowsEffected == 1)
+            {
+                // Cập nhật lại dữ liệu trên Listview
+                ListViewItem item = lvCategory.SelectedItems[0]; lvCategory.Items.Remove(item);
+                // Xóa các ô nhập
+                txtID.Text = "";
+                txtName.Text = "";
+                txtType.Text = "";
+                // Disable các nút xóa và cập nhật
+                btnUpdate.Enabled = false;
+                btnDelete.Enabled = false;
+                MessageBox.Show("Xóa nhóm món ăn thành công");
+            }
+            else
+            {
+                MessageBox.Show("Đã có lỗi xảy ra. Vui lòng thử lại");
+
+            }
+        }
+
+        private void tsmDelete_Click(object sender, EventArgs e)
+        {
+            if(lvCategory.SelectedItems.Count > 0)
+            {
+                btnDelete.PerformClick();
+            }
+        }
+
+        private void tsmViewFood_Click(object sender, EventArgs e)
+        {
+            if(txtID.Text !="")
+            {
+                frmFood foodForm = new frmFood();
+                foodForm.Show(this);
+                foodForm.LoadFood(Convert.ToInt32(txtID.Text)); 
+            }    
         }
     }
 }
